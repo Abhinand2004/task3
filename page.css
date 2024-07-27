@@ -7,6 +7,9 @@
 nav{
     height: 80px;
     background-color:rgb(246, 248, 248) ;
+    position: sticky;
+    width: 100%;
+    top: 0;
     
 }
 
@@ -24,8 +27,8 @@ nav{
 
 .logo{
     display: flex;
-    padding: 10px;
-    font-size: xx-large;
+    padding-left: 30px;
+    
 }
 
 .img{
@@ -96,6 +99,8 @@ nav{
     height: 400px;
     display: flex;
     flex-direction: row;
+    gap: 20px;
+    padding-inline: 20px;
     
     
     
@@ -147,22 +152,33 @@ nav{
     
     display: flex;
     flex-direction: row;
+    
 }.r1{
     background-image: url(service-icon-4.png);
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    
 
 }.r2{
     background-image: url(builder-2.jpg.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
 
 }.r3{
     background-image: url(builder-3.jpg.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    
 }.rw1{
     flex: 1;
+    
+
 }
 
 
@@ -179,13 +195,182 @@ nav{
     background-image: url(builder-4.jpg.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+    background-position:center;
    
 }.a2{
     background-image: url(builder-5.jpg.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
 }.a3{
     background-image: url(builder-6.jpg.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+}
+
+.d1:hover{
+    color: orange;
+}
+.hhhh:hover{
+    color: black;
+    background-color: orange;
+}.bd:hover{
+    background-color: whitesmoke;
+    transition: 500ms;
+}.pc:hover{
+    background-color: whitesmoke;
+    transition: 500ms;
+}.rc:hover{
+    background-color: whitesmoke;
+    transition: 500ms;
+    
+}.oo{
+    border-radius: 20px;
+}.top{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 100px;
+}button{
+    padding: 5px;
+    padding-inline: 20px;
+    border-radius: 6px;
+    border-style: none;
+    border: 1px solid rgb(194, 189, 189);
+    
+}.b6{
+    background-color: orange;
+    color: white;
+    
+}.b6:hover{
+    background-color: white;
+    color: orange;
+    border: 1px solid orange;
+}.level5:hover{
+    background-color: orange;
+}
+
+
+
+.color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(241, 166, 5, 0.929);
+    opacity: 0;
+    transition:  .5s;
+}
+
+.r1:hover .color-overlay{
+    opacity: 1;
+}
+
+
+.l{
+    width: 100%;
+    height: 900px;
+}
+
+.co2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(241, 166, 5, 0.929);
+    transition:  0.5s; 
+    opacity: 0;
+}
+
+.r2:hover .co2 {
+    opacity: 1;
+}
+
+.co3{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(241, 166, 5, 0.929);
+    transition: opacity  0.5s;
+    opacity: 0;
+}
+.r3:hover .co3{
+    opacity: 1;
+}.co4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:rgba(241, 166, 5, 0.929);
+    transition:opacity 0.5s;
+    opacity: 0;
+}.a1:hover .co4{
+    opacity: 1;
+}
+
+.co5{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:rgba(241, 166, 5, 0.929);
+    transition:opacity 0.5s;
+    opacity: 0;
+}
+.a2:hover .co5{
+    opacity: 1;
+
+}
+
+.co6{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:rgba(241, 166, 5, 0.929);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.a3:hover .co6{
+    opacity: 1;
+}
+
+.rw2 .f1 {
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.rw1 .f1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap :10px;
+}
+.rw1 .p22{
+    width: 98%;
+
+}
+.rw2 .p22{
+    width: 98%;
+    
+}.f1{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.p::selection{
+    background-color: blue;
 }
