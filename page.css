@@ -247,6 +247,8 @@ nav{
 }.b6{
     background-color: orange;
     color: white;
+    padding: 6px;
+    padding-inline: 15px;
     
 }.b6:hover{
     background-color: white;
@@ -373,4 +375,23 @@ nav{
 }
 .p::selection{
     background-color: blue;
+}
+
+.b5 {
+    padding: 3px;
+    border: 1px solid rgb(216, 213, 213);
+    border-radius: 5px;
+    padding-inline: 10px;
+    background-color: white; 
+    font-size: 16px; 
+    
+}
+
+
+.b5 option {
+    background-color: white;
+    font-weight: 600;
+}
+.b5:hover {
+    background-color: #f2ecec; /* Background color on hover */
 }
