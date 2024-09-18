@@ -1,0 +1,97 @@
+img{width: 100%;}
+.img1{
+    background-image: url(img2/img01.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}.sec{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}.hight{
+height: 250px;
+}.img1{
+    background-image: url(img2/img02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}.img2{
+    background-image: url(img2/img03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img3{
+    background-image: url(img2/img04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img4{
+    background-image: url(img2/img05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img5{
+    background-image: url(img2/img06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}.img6{
+    background-image: url(img2/img07.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}.img7{
+    background-image: url(img2/img08.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}.img8{
+    background-image: url(img2/img09.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}.img9{
+    background-image: url(img2/img10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img10{
+    background-image: url(img2/img11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img11{
+    background-image: url(img2/img11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.session2 .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    color: green;
+     
+}.bdr-btm{
+
+ 
+border-bottom: 2px solid green;
+width: 50%;
+ 
+}
